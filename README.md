@@ -6,11 +6,12 @@ Wir legen großen Wert auf Sauberkeit, Zuverlässigkeit und eine unkomplizierte 
  * **Komfort:** Gemütliche Schlafplätze und funktionale Innenausstattung.
  * **Sicherheit:** Regelmäßig gewartete Fahrzeuge für eine sorgenfreie Fahrt.
  * **Flexibilität:** Individuelle Mietzeiträume nach Absprache.
-## 🛠️ Ausstattung
+## 🛠️ Ausstattung (Beispiel)
+*Je nachdem, welchen Wohnwagen du genau anbietest, kannst du diese Liste anpassen:*
  * ✅ Voll ausgestattete Küche (Herd, Kühlschrank, Spüle)
  * ✅ Heizung für kühle Nächte
  * ✅ Nasszelle mit WC und Waschbecken
- * ✅ 5 Campingstühle und ein Campingtisch
+ * ✅ Fahrradträger & Markise (optional)
  * ✅ Inklusive Grundausstattung (Gasflasche, Stromkabel, Adapter)
 ## 📅 Buchungsanfrage & Kontakt
 Hast du Fragen oder möchtest du die Verfügbarkeit prüfen? Wir freuen uns auf deine Nachricht!
