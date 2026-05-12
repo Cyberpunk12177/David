@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schaffner's Wohnwagenvermietung</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --accent: #e67e22;
+            --light: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+            background-color: var(--light);
+        }
+
+        header {
+            background: var(--primary);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        header h1 { margin: 0; font-size: 2.5rem; }
+        header p { font-style: italic; color: var(--accent); font-size: 1.2rem; }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        /* Platzhalter für Bilder */
+        .image-placeholder {
+            width: 100%;
+            height: 400px;
+            background: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+
+        .image-placeholder img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            background: #2c3e50;
+            color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+        }
+
+        .contact-info a { color: var(--accent); text-decoration: none; font-weight: bold; }
+
+        .calendar-container {
+            position: relative;
+            padding-bottom: 75%; /* Aspect Ratio für Kalender */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .calendar-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        footer { text-align: center; padding: 2rem; font-size: 0.9rem; color: #777; }
+
+        .badge {
+            background: var(--accent);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Schaffner's Wohnwagenvermietung</h1>
+    <p>"Mit Schaffner schafft man's überall hin."</p>
+</header>
+
+<div class="container">
+    
+    <section class="card">
+        <div class="badge">Aktuell 1 Wohnwagen verfügbar</div>
+        <h2>Unser Prachtstück</h2>
+        
+        <div class="image-placeholder">
+            <img src="wohnwagen.jpg" alt="Unser Wohnwagen"> 
+            </div>
+
+        <h3>Ausstattung & Infos</h3>
+        <ul>
+            <li> Ausstattung: Klimaanlage und Heizung vorhanden</li>
+            <li>Schlafplätze:5</li>
+            <li>Inklusive:Grill vorhanden 5 Campingstühle</li>
+            <li>Küchenausstattung: Gas zum kochen, Geschirr und Besteck</li>
+        </ul>
+        <p>
+            Genießen Sie die Freiheit auf Rädern. Unser Wohnwagen ist top gepflegt 
+            und bereit für Ihr nächstes Abenteuer.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Verfügbarkeit prüfen</h2>
+        <p>Schauen Sie im Kalender nach, ob Ihr Wunschtermin noch frei ist:</p>
+        
+        <div class="calendar-container">
+<iframe src="https://calendar.google.com/calendar/embed?src=DEINE_EMAIL_HIER&ctz=Europe%2FBerlin"></iframe>
+        </div>
+    </section>
+
+    <section class="card">
+        <h2>Jetzt anfragen</h2>
+        <p>Haben Sie Fragen oder möchten Sie direkt buchen? Melden Sie sich bei uns!</p>
+        
+        <div class="contact-info">
+            <div>
+                <strong>Telefon / WhatsApp:</strong><br>
+                <a href="tel:+491629750153">0162 9750153</a>
+            </div>
+            <div>
+                <strong>E-Mail:</strong><br>
+<a href="mailto:Kooperativ.david@gmx.de">Kooperativ.david@gmx.de</a>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    &copy; 2024 Schaffner's Wohnwagenvermietung | David Schaffner
+</footer>
+
+</body>
+</html>
